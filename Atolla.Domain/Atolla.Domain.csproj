@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="3.19.80" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Atolla.Core\Atolla.Core.csproj" />
+  </ItemGroup>
+
+</Project>
