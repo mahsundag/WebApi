@@ -72,7 +72,7 @@ namespace Atolla.Domain
     {
         public AtollaObjectContext CreateDbContext(string[] args)
         {
-            string connectionStringOracl = $"Password=Atolla21;User Id=Atolla;Data Source=atollavm.francecentral.cloudapp.azure.com:1521/XE";
+            string connectionStringOracl = $"";
 
             var optionsBuilder = new DbContextOptionsBuilder<AtollaObjectContext>();
             optionsBuilder.UseOracle(connectionStringOracl, s => s.UseOracleSQLCompatibility("11"));
